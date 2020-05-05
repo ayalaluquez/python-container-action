@@ -16,7 +16,7 @@ jobs:
         # Put your action repo here
         uses: ayalaluquez/python-container-action@test
         with:
-          myInput: "Hola es una prueba"
+          myInput: world
             
       - name: Check outputs
         run: |
