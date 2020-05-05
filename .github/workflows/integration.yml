@@ -9,7 +9,7 @@ jobs:
         id: selftest
 
         # Put your action repo here
-        uses: jacobtomlinson/python-container-action@master
+        uses: ayalaluquez/python-container-action@test
 
       - name: Check outputs
         run: |
