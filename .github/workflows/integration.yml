@@ -10,7 +10,9 @@ jobs:
 
         # Put your action repo here
         uses: ayalaluquez/python-container-action@test
-
+        with:
+          myInput: "Hola es una prueba"
+            
       - name: Check outputs
         run: |
           test "${{ steps.selftest.outputs.myOutput }}" == "Hello world"
