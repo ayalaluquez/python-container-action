@@ -16,7 +16,7 @@ jobs:
         # Put your action repo here
         uses: ayalaluquez/python-container-action@test
         with:
-          myInput: 'Una oración completa'
+          myInput: Una_oración_completa
             
       - name: Check outputs
         run: |
