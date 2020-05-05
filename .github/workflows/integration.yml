@@ -20,4 +20,4 @@ jobs:
             
       - name: Check outputs
         run: |
-          test "${{ steps.selftest.outputs.myOutput }}" == ${myInput}
+          test "${{ steps.selftest.outputs.myOutput }}"
